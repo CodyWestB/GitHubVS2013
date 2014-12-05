@@ -1,0 +1,13 @@
+﻿
+#circle {
+	width: 500px;
+	height: 500px;
+	background: red;
+	-moz-border-radius: 500px;
+	-webkit-border-radius: 500px;
+	border-radius: 500px;
+}
+
+/* Cleaner, but slightly less support: use "50%" as value */
+
+

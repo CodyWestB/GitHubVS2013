@@ -1,0 +1,43 @@
+﻿@model www.CodyBerndt.com.Models.Home.HomeModels
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    .circleImages
+    {
+        display: inline;
+        max-width: 50%;
+    }
+
+</style>
+
+@*@section featured {
+
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+        </div>
+    
+
+    </section>
+}*@
+
+<div class="text-center container-fluid" style="margin-bottom:15px;">
+
+    <div class="h3" style="color:gray;">Welcome!</div>
+
+    <div>
+        <img @*id="circle"*@ class="img-responsive img-circle circleImages" alt="Responsive image" src="/Images/Personal/CodyMotorcycleSummer.jpg" title="Cody Berndt" />
+    </div>
+
+
+</div>
+
+@*<ol class="round">
+    
+</ol>*@
