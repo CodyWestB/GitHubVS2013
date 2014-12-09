@@ -7,7 +7,7 @@ namespace www.CodyBerndt.com.Models.About
 {
     public class AboutModels
     {
-
+        public List<string> HaloImages = new List<string>();
 
     }
 }
